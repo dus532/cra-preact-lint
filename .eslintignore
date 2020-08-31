@@ -1,0 +1,6 @@
+*.config.*
+*.json
+/build
+/node_modules
+.env
+.gitignore
