@@ -2,13 +2,8 @@ import '@/App.css';
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import styled from 'styled-components';
 
 import Test from '@/Test';
-
-const Abc = styled.div`
-  display: flex;
-`;
 
 const App = () => {
   return (
@@ -17,7 +12,7 @@ const App = () => {
       <Router>
         <Switch>
           <Route path="/test">
-            <Test />
+            <Test />1
           </Route>
         </Switch>
       </Router>
